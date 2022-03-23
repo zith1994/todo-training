@@ -7,6 +7,10 @@ const routes: Routes = [{
         path: 'home', 
         loadChildren: () => HomePageModule
       },
+  { 
+        path: 'about-us', 
+        loadChildren: () => AboutUsPageModule
+      }
 ];
 
 @NgModule({
